@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقديم شرطة عرب هاوس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #2e004f;
+            text-align: center;
+            color: #000;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0.9;
+        }
+        h1 {
+            color: #0044cc;
+        }
+        h2 {
+            color: #0044cc;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #0044cc;
+            border-radius: 5px;
+        }
+        button {
+            background: #0044cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #002a80;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>شرطة عرب هاوس</h1>
+        <p>نحن فريق متخصص في حفظ الأمن والنظام داخل سيرفر عرب هاوس، نعمل على ضمان سلامة اللاعبين وتطبيق القوانين بصرامة وعدالة.</p>
+        <h2>طلب الانضمام إلى شرطة عرب هاوس</h2>
+        <form action="#" method="POST">
+            <label>الاسم الثلاثي:</label>
+            <input type="text" required>
+
+            <label>العمر:</label>
+            <input type="number" required>
+
+            <label>يوزرك داخل اللعبة:</label>
+            <input type="text" required>
+
+            <label>هل لديك أي مخالفات سابقة؟:</label>
+            <select>
+                <option>نعم</option>
+                <option>لا</option>
+            </select>
+
+            <label>سبب رغبتك في الانضمام إلى الشرطة:</label>
+            <textarea required></textarea>
+
+            <label>مستوى خبرتك في العمل الأمني:</label>
+            <select>
+                <option>مبتدئ</option>
+                <option>متوسط</option>
+                <option>خبير</option>
+            </select>
+
+            <label>هل لديك معرفة بالقوانين العسكرية؟</label>
+            <select>
+                <option>نعم</option>
+                <option>لا</option>
+            </select>
+
+            <label>هل تستطيع الالتزام بالحضور والتدريبات؟</label>
+            <select>
+                <option>نعم</option>
+                <option>لا</option>
+            </select>
+
+            <label>يوزر ديسكورد:</label>
+            <input type="text" required>
+
+            <button type="submit">إرسال الطلب</button>
+        </form>
+    </div>
+</body>
+</html>
